@@ -1,9 +1,9 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import { fetchPhotos } from './js/pixabay-api';
-import { render } from './js/render-function';
-import { loader } from './js/render-function';
-import { clearGallery } from './js/render-function';
+import { render } from './js/render-functions';
+import { loader } from './js/render-functions';
+import { clearGallery } from './js/render-functions';
 
 const form = document.querySelector('.form');
 const gallery = document.querySelector('.gallery');
